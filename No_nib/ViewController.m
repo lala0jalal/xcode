@@ -118,7 +118,7 @@
  -(void)switchTon:(id)sender
     {     
              
-        if ([self.on_of isOn])
+       // if ([self.on_of isOn])
         {
             self.text.hidden = NO;
             
