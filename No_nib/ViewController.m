@@ -159,7 +159,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault  reuseIdentifier:CellIdentifier ]autorelease];
  
         
-        //  cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
 #warning  USE THE GETTER
     cell.textLabel .text = [self.cities objectAtIndex:indexPath.row]; 
